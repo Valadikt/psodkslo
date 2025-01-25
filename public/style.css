@@ -1,0 +1,111 @@
+/* General styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Background image */
+.background-image {
+    background-image: url('assets/growtopia-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Main login container */
+.login-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    width: 320px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Promo message style */
+.promo-message {
+    font-size: 16px;
+    margin-bottom: 4px;
+    color: #000000;
+}
+
+/* Input field styling */
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00aeff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00aeff;
+}
+
+/* Bottom section styling */
+.bottom-section {
+    text-align: center;
+    padding: 10px 10px;
+    position: absolute;
+    bottom: -25px; /* Adds spacing from the bottom edge */
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding is included in width */
+}
+
+.ubisoft-logo {
+    width: 60px;
+    height: auto;
+    margin-bottom: -5px;
+}
+
+.ubisoft-text {
+    font-size: 18px;
+    color: #000000;
+    margin: 0px -25px;
+}
+
+.legal-section {
+    font-size: 18px;
+    color: #000000;
+    margin-top: 5px;
+}
+
+.privacy-policy a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0px 0px;
+}
+
+.privacy-policy a:hover {
+    text-decoration: underline;
+}
+
